@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Tallyson Aguiar">
+    <meta name="description" content="Portfólio do desenvolved front-end Tallyson Aguiar">
+    <meta name="keywords" content="portfolio, html, front-end, desenvolvimento, css, javascript">
+    <title>Tallyson Aguiar</title>
+    <link rel="icon" href="images/icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="css/css2.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/habilidades.css">
+
+
+  </head>
+  <body>
+    
+    <header>
+    <nav data-menu="suave" class="fixed">
+       <p><a href="#home">TA/ (EM CONSTRUCAO)›</a></p>
+       <button data-menu="button" aria-controls="menu"></button>
+      <ul data-menu="list" id="menu">
+        <a href="#home">
+        <li>Home</li>
+      </a>
+        <a href="#sobre">
+          <li>Sobre</li>
+        </a>
+        <a href="#habilidades">
+        <li>Habilidades</li>
+      </a>
+      <a href="#projetos">
+        <li>Projetos</li>
+      </a>
+      </ul>
+    </nav>
+  </header>
+
+    <main>
+      <section class="principal" id="home">
+        <div class="principal__left">
+          <h1>Olá, eu sou</h1>
+            <span class="principal__sentence">     </span>
+            <span class="principal__input-cursor"></span>
+          <h1>Desenvolvedor Full-stack</h1>
+          <div class="principal__botao">
+            <a href="https://www.linkedin.com/in/tallyson-aguiar/" target="_blank">
+              <div class="principal__botao-linkedin">
+                <img src="images/linkedin.png" alt="">
+                <p>LinkedIn</p>
+              </div>
+            </a>
+            <a href="https://github.com/TgabrielAguiar" target="_blank">
+              <div class="principal__botao-github">
+                <img src="images/github.png" alt="">
+                <p>Github</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="principal__right">
+          <!--<img src="fonts/code.svg" alt="Ilustração representando um desenvolvedor sentado na cadeira mexendo no notebook com ambiente em volta." data-tilt="" style="transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);"> -->
+          <img src="./angular.js.gif" alt="Ilustração representando um desenvolvedor sentado na cadeira mexendo no notebook com ambiente em volta." data-tilt="" style="transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);">
+        </div>
+        
+        <div class="scroll" data-menu="suave"><a href="#sobre"> <p> scroll down </p> <img src="images/scroll.png" alt="Setinha indicando para rolar a tela para baixo"></a></div>
+      </section>
+      <section class="sobre-mim animation" id="sobre" data-anime="js-scroll">
+        <div class="sobre-mim__foto">
+          <img src="images/eu.png" alt="Uma selfie da Gabriela Souza">
+        </div>
+        <div class="sobre-mim__descricao">
+          <h1>Sobre mim</h1>
+          <h2>Trizidela do Vale, Maranhão</h2>
+          <p>
+            Sou um profissional de tecnologia e tenho trabalhado com COBOL, CICS e DB2 em mainframe, o que tem me proporcionado uma base sólida em desenvolvimento de sistemas.
+           Em resumo, minha carreira profissional até o momento me permitiu trabalhar em projetos desafiadores, adquirindo conhecimentos e habilidades em em mainframe. Porém, estou sempre em busca de aprendizado e evolução, o que me motivou a estudar tecnologias modernas como Java e Angular.
+          </p>
+          <div class="sobre-mim__descricao-buttons">
+            <a href="./assets/curriculo.pdf" download="">
+              <div class="sobre-mim__descricao-buttons-curriculo">
+                <img src="images/download-da-nuvem.png" alt="">
+                <p>Currículo</p>
+              </div>
+            </a>
+            <a href="mailto: tallysongabriel3@gmail.com?subject=Tallyson, vim pelo seu portfólio! :)" target="_blank">
+              <div class="sobre-mim__descricao-buttons-email">
+                <img src="images/email.png" alt="">
+                <p>E-mail</p>
+              </div>
+            </a>
+          </div>
+          
+        </div>
+      </section>
+                 
+      <!-- Habilidades -->
+      <section class="habilidades" id="habilidades" >
+        <div class="centralizador">
+          <div class="habilidades-pd">
+            <h1 class="project" data-sr-id="8" >Habilidades</h1>
+            <div class="skills-descricao">
+              <div class="conteiner-skills" data-sr-id="10" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 3s cubic-bezier(0.5, 0, 0, 1) 0s, transform 3s cubic-bezier(0.5, 0, 0, 1) 0s;">
+                <div class="skill-box skill1 html-skill">
+                  <img class="icones-habilidades" src="fonts/html.svg" alt="html-icon">
+                </div>
+                <div class="skill-box skill2 css-skill">
+                  <img class="icones-habilidades" src="fonts/css.svg" alt="css-icon">
+                </div>
+                <div class="skill-box skill3 js-skill">
+                  <img class="icones-habilidades" src="fonts/js.svg" alt="js-icon">
+                </div>
+                <!-- <div class="skill-box skill4"> <img class="icones-habilidades" src="/assets/img/node.svg" alt="node-icon"> </div>
+                            <div class="skill-box skill5"> <img class="icones-habilidades" src="/assets/img/php.svg" alt="php-icon"> </div>
+                            <div class="skill-box skill6"> <img class="icones-habilidades" src="/assets/img/java.svg" alt="java-icon"> </div>
+                            
+                            <div class="skill-box skill8"> <img class="icones-habilidades" src="/assets/img/sql.svg" alt="sql-icon"> </div> -->
+                <!-- <div class="skill-box skill7">
+                  <img class="icones-habilidades" src="fonts/react.svg" alt="react-icon">
+                </div>
+                <div class="skill-box skill8">
+                  <img class="icones-habilidades" src="fonts/styled.svg" alt="react-icon">
+                </div>
+                <div class="skill-box skill13 sass-skill">
+                  <img class="icones-habilidades" src="fonts/sass.svg" alt="sass-icon"> -->
+                </div>
+                <div class="skill-box skill9 git-skill">
+                  <img class="icones-habilidades" src="fonts/git.svg" alt="git-icon">
+                </div>
+                <div class="skill-box skill10 github-skill">
+                  <img class="icones-habilidades" src="fonts/github.svg" alt="github-icon">
+                </div>
+                <!--  <div class="skill-box skill11"> <img class="icones-habilidades" src="/assets/img/bootstrap.svg" alt="bootstrap-icon"> </div> -->
+                <!--   <div class="skill-box skill12"> <img class="icones-habilidades" src="/assets/img/typescript.svg" alt="typescript-icon"> </div> -->
+              </div>
+              <div class="conteiner-descricao" data-sr-id="11" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 3s cubic-bezier(0.5, 0, 0, 1) 0s, transform 3s cubic-bezier(0.5, 0, 0, 1) 0s;">
+                <p class="texto-descricao">
+                  /* Passe o mouse por cima de alguma habilidade para ler a
+                  descrição */
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Habilidades -->
+
+
+<!-- 
+      <section class="projetos animation" id="projetos" data-anime="js-scroll">
+        <h1>Projetos</h1>
+        <div class="projetos__wrapper">
+          <section class="projetos__card">
+            <a href="*" target="_blank">
+            <img src="images/projeto2.png" alt="" class="projeto-img">
+          </a>
+            <h2>Jogo da vaelha</h2>
+            <p>
+              Projeto de um jogo da velha simples e funcional para desenvolver meus conhecimentos.
+            </p>
+            <span>Tecnologias usadas no projeto: HTML, CSS, JavaScript Vanilla.</span>
+            <a href="https://tgabrielaguiar.github.io/Jogo-da-Velha/" target="_blank">
+              <div class="projetos__card-button">
+                <img src="images/link.png" alt="Imagem do jogo da vaha">
+                Visualizar
+              </div>
+            </a>
+          </section>
+          <section class="projetos__card">
+            <a href="*" target="_blank">
+            <img src="images/projeto1.png" alt="Imagem do filme vingadores representando meu projeto número 2" class="projeto-img">
+            </a>
+            <h2>Vingadores</h2>
+            <p>
+              Meu primeiro projeto me aventurando na área de tecnologia, esse elaborado na minha terceira semana de estudos em HTML e CSS (agosto/2021). A partir dele pude evoluir bastante.
+            </p>
+            <span>Tecnologias usadas no projeto: HTML e CSS.</span>
+            <a href="*" target="_blank">
+              <div class="projetos__card-button">
+              <img src="images/link.png" alt="">
+              Visualizar
+            </div>
+            </a>
+          </section>
+          <section class="projetos__card">
+            <a href="*" target="_blank">
+            <img src="images/projeto3.png" alt="" class="projeto-img">
+            </a>
+            <h2>Pokédex</h2>
+            <p>
+              Projeto realizado em ReactJS consumindo uma API de Pokémon.
+            </p>
+            <span>Tecnologias usadas no projeto: HTML, CSS, ReactJS, JSX.</span>
+            <a href="*" target="_blank">
+              <div class="projetos__card-button">
+                <img src="images/link.png" alt="Imagem logo do pokémon representando meu projeto número 3">
+                Visualizar
+              </div>
+            </a>
+          </section>
+          <section class="projetos__card">
+            <a href="*" target="_blank">
+            <img src="images/projeto4.png" alt="Imagem logo de folhas de uma planta representando meu projeto número 4" class="projeto-img">
+          </a>
+            <h2>Casa Verde</h2>
+            <p>
+              Projeto realizado em ReactJS a partir do 7 days of code da Alura. O projeto encontra-se em fase de desenvolvimento.
+            </p>
+            <span>Tecnologias usadas no projeto: HTML, CSS, ReactJS, JSX, Styled Components (CSS-in-JS).</span>
+            <a href="*" target="_blank">
+              <div class="projetos__card-button">
+                <img src="images/link.png" alt="">
+                Visualizar
+              </div>
+            </a>
+   
+          </section>
+        </div>
+      </section> -->
+
+      <footer>
+        <p>Desenvolvido por</p><a href="https://www.linkedin.com/in/tallyson-aguiar/" target="_blank"><span> Tallyson Aguiar</span></a>
+      </footer>
+    </main>
+
+    <script type="module" src="./js/script.js"></script>
+    <script src="js/vanilla-tilt.min.js"></script>
+    <script src="./js/habilidades.js"></script>
+  
+
+</body></html>
